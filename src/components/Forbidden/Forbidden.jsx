@@ -14,6 +14,7 @@ const Forbidden = () => {
         height={200}
         width={200}
       ></Lottie>
+      {/* add  */}
       <h1 className="text-3xl font-bold text-red-500">
         You Are Forbidden to Access This Page
       </h1>

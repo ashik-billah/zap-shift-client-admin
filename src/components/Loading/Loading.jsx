@@ -1,6 +1,6 @@
 import Lottie from "react-lottie";
 import loadingAnimation from "../../assets/json/loading.json";
-
+//add
 const Loading = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-5">

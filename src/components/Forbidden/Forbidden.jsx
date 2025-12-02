@@ -1,6 +1,7 @@
 import Lottie from "react-lottie";
 import forbiddenAnimation from "../../assets/json/forbidden.json";
 import { Link } from "react-router";
+//add
 const Forbidden = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">

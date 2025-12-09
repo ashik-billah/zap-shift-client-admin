@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../components/Logo/Logo';
 import { Outlet } from 'react-router';
 import authImage from '../assets/authImage.png'
+//addgit 
 const AuthLayout = () => {
     return (
         <div className='max-w-7xl mx-auto'>

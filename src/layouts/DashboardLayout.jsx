@@ -20,7 +20,7 @@ const DashboardLayout = () => {
                     </label>
                     <div className="px-4">Zap Shift Dashboard</div>
                 </nav>
-                {/* Page content here */}
+                {/* Page content here added*/}
                 <Outlet></Outlet>
 
             </div>

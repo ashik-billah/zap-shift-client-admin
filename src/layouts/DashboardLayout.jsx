@@ -30,7 +30,7 @@ const DashboardLayout = () => {
                 <div className="flex min-h-full flex-col items-start bg-base-200 is-drawer-close:w-14 is-drawer-open:w-64">
                     {/* Sidebar content here added */}
                     <ul className="menu w-full grow">
-                        {/* List item */}
+                        {/* List item added */}
                         <li>
                             <Link to="/" className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Homepage">
                                 {/* Home icon */}

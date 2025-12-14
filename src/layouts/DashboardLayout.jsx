@@ -54,6 +54,7 @@ const DashboardLayout = () => {
                             </NavLink>
                         </li>
                         {
+                            // added
                             role === 'admin' && <>
                                 <li>
                                     <NavLink className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Approve Riders" to="/dashboard/approve-riders">

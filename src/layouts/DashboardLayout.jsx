@@ -77,7 +77,7 @@ const DashboardLayout = () => {
                             </>
                         }
 
-                        {/* List item */}
+                        {/* List item  added*/}
                         <li>
                             <button className="is-drawer-close:tooltip is-drawer-close:tooltip-right" data-tip="Settings">
                                 {/* Settings icon */}

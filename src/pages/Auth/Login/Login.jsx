@@ -31,7 +31,7 @@ const Login = () => {
             <p className='text-center'>Please Login</p>
             <form className="card-body" onSubmit={handleSubmit(handleLogin)}>
                 <fieldset className="fieldset">
-                    {/* email field */}
+                    {/* email field added */}
                     <label className="label">Email</label>
                     <input type="email" {...register('email', { required: true })} className="input" placeholder="Email" />
                     {

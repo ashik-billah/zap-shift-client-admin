@@ -10,6 +10,7 @@ const Login = () => {
     const { signInUser } = useAuth();
     const location = useLocation();
     const navigate = useNavigate();
+    //added
 
 
     const handleLogin = (data) => {

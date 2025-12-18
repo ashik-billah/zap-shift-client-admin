@@ -5,7 +5,7 @@ import { Link, useLocation, useNavigate } from 'react-router';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import axios from 'axios';
 import useAxiosSecure from '../../../hooks/useAxiosSecure';
-
+//added
 const Register = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const { registerUser, updateUserProfile } = useAuth();

@@ -38,7 +38,7 @@ const Login = () => {
                         errors.email?.type === 'required' && <p className='text-red-500'>Email is required</p>
                     }
 
-                    {/* password field */}
+                    {/* password field  adeed*/}
                     <label className="label">Password</label>
                     <input type="password" {...register('password', { required: true, minLength: 6 })} className="input" placeholder="Password" />
                     {

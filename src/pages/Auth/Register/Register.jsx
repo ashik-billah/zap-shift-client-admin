@@ -76,7 +76,7 @@ const Register = () => {
             <p className='text-center'>Please Register</p>
             <form className="card-body" onSubmit={handleSubmit(handleRegistration)}>
                 <fieldset className="fieldset">
-                    {/* name field */}
+                    {/* name field  added*/}
                     <label className="label">Name</label>
                     <input type="text" {...register('name', { required: true })} className="input" placeholder="Your Name" />
                     {errors.name?.type === 'required' && <p className='text-red-500'>Name is required.</p>}

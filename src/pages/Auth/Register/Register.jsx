@@ -21,7 +21,7 @@ const Register = () => {
         registerUser(data.email, data.password)
             .then(() => {
 
-                // 1. store the image in form data
+                // 1. store the image in form data add
                 const formData = new FormData();
                 formData.append('image', profileImg);
 
@@ -32,7 +32,8 @@ const Register = () => {
                     .then(res => {
                         const photoURL = res.data.data.url;
 
-                        // create user in the database
+                        // create user in the database 
+                        //added
                         const userInfo = {
                             email: data.email,
                             displayName: data.name,

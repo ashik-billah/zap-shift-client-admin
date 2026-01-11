@@ -48,6 +48,7 @@ const Register = () => {
 
 
                         // update user profile to firebase
+                        //added
                         const userProfile = {
                             displayName: data.name,
                             photoURL: photoURL

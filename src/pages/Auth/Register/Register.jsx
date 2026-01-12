@@ -88,7 +88,7 @@ const Register = () => {
 
                     {errors.name?.type === 'required' && <p className='text-red-500'>Photo is required.</p>}
 
-                    {/* email field */}
+                    {/* email field added */}
                     <label className="label">Email</label>
                     <input type="email" {...register('email', { required: true })} className="input" placeholder="Email" />
                     {errors.email?.type === 'required' && <p className='text-red-500'>Email is required.</p>}

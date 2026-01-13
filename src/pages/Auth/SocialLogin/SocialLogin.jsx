@@ -2,7 +2,7 @@ import React from 'react';
 import useAuth from '../../../hooks/useAuth';
 import { useLocation, useNavigate } from 'react-router';
 import useAxiosSecure from '../../../hooks/useAxiosSecure';
-//added
+// added
 const SocialLogin = () => {
     const { signInGoogle } = useAuth();
     const axiosSecure = useAxiosSecure();
@@ -16,7 +16,7 @@ const SocialLogin = () => {
                 console.log(result.user);
                 
 
-                // create user in the database
+                // create user in the database added
                 const userInfo = {
                     email: result.user.email,
                     displayName: result.user.displayName,

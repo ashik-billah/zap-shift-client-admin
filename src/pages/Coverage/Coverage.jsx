@@ -9,6 +9,7 @@ const Coverage = () => {
     const serviceCenters = useLoaderData();
     const mapRef = useRef(null);
     // console.log(serviceCenters);
+    //added
 
 
     const handleSearch = e => {

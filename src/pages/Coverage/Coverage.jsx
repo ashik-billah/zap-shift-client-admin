@@ -22,6 +22,7 @@ const Coverage = () => {
             const coord = [district.latitude, district.longitude];
             console.log(district, coord)
             // go to the location
+            //added
             mapRef.current.flyTo(coord, 14);
         }
     }

@@ -52,7 +52,7 @@ const Coverage = () => {
                     </label>
                 </form>
             </div>
-            {/*  */}
+            {/* added  */}
             <div className='border w-full h-[800px]'>
                 <MapContainer
                     center={position}

@@ -5,7 +5,7 @@ import { FaEye, FaUserCheck } from 'react-icons/fa';
 import { IoPersonRemoveSharp } from 'react-icons/io5';
 import { FaTrashCan } from 'react-icons/fa6';
 import Swal from 'sweetalert2';
-//added approve
+//add approve
 const ApproveRiders = () => {
     const axiosSecure = useAxiosSecure();
 

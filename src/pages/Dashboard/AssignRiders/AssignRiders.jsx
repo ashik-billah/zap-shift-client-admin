@@ -17,7 +17,7 @@ const AssignRiders = () => {
         }
     })
 
-    // todo: invalidate query after assigning a rider
+    // todo: invalidate query after assigning a rider aadded
     const { data: riders = [] } = useQuery({
         queryKey: ['riders', selectedParcel?.senderDistrict, 'available'],
         enabled: !!selectedParcel,

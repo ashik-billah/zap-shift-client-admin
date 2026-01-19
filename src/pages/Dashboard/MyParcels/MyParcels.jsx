@@ -18,7 +18,7 @@ const MyParcels = () => {
             return res.data;
         }
     })
-
+//added
     const handleParcelDelete = id => {
         console.log(id);
 

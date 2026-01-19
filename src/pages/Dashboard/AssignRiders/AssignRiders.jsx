@@ -95,7 +95,7 @@ const AssignRiders = () => {
 
                     <div className="overflow-x-auto">
                         <table className="table table-zebra">
-                            {/* head */}
+                            {/* head added */}
                             <thead>
                                 <tr>
                                     <th></th>

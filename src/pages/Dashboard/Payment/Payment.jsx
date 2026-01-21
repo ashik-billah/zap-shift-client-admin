@@ -30,7 +30,7 @@ const Payment = () => {
         
         window.location.href = res.data.url;
     }
-
+//added
     if (isLoading) {
         return <div>
             <span className="loading loading-infinity loading-xl"></span>

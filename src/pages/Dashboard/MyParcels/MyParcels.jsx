@@ -38,7 +38,7 @@ const MyParcels = () => {
                         console.log(res.data);
 
                         if (res.data.deletedCount) {
-                            // refresh the data in the ui
+                            // refresh the data in the ui //addded 
                             refetch();
 
                             Swal.fire({

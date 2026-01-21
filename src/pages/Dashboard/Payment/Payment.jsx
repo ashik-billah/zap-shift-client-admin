@@ -15,7 +15,7 @@ const Payment = () => {
             return res.data;
         }
     })
-
+//added
     const handlePayment = async() => {
         const paymentInfo = {
             cost: parcel.cost,

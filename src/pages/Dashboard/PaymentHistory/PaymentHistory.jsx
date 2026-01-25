@@ -40,7 +40,7 @@ const PaymentHistory = () => {
                                 <td>{payment.transactionId}</td>
                             </tr>)
                         }
-
+{/* //added */}
 
                     </tbody>
                 </table>

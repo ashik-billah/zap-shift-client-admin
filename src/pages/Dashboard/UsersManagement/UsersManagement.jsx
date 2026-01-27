@@ -17,7 +17,7 @@ const UsersManagement = () => {
             return res.data;
         }
     })
-
+//added
     const handleMakeAdmin = user => {
         const roleInfo = { role: 'admin' }
         //TODO: must ask for confirmation before proceed

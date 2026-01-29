@@ -81,7 +81,7 @@ const UsersManagement = () => {
             </label>
             <div className="overflow-x-auto">
                 <table className="table">
-                    {/* head */}
+                    {/* head  added*/}
                     <thead>
                         <tr>
                             <th>

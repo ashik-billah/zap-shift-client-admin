@@ -140,7 +140,7 @@ const UsersManagement = () => {
                         </tr>)}
 
 
-
+{/* added search */}
                     </tbody>
                 </table>
             </div>

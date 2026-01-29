@@ -39,7 +39,7 @@ const UsersManagement = () => {
 
     const handleRemoveAdmin = user => {
         const roleInfo = { role: 'user' }
-        //TODO: must ask for confirmation before proceed
+        //TODO: must ask for confirmation before proceed //added
         axiosSecure.patch(`/users/${user._id}/role`, roleInfo)
             .then(res => {
                 if (res.data.modifiedCount) {

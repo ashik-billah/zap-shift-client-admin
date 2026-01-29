@@ -20,7 +20,7 @@ const UsersManagement = () => {
 //added
     const handleMakeAdmin = user => {
         const roleInfo = { role: 'admin' }
-        //TODO: must ask for confirmation before proceed
+        //TODO: must ask for confirmation before proceed //added
         axiosSecure.patch(`/users/${user._id}/role`, roleInfo)
             .then(res => {
                 console.log(res.data);

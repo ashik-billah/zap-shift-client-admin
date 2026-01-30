@@ -12,6 +12,7 @@ const Banner = () => {
             autoPlay={true}
             infiniteLoop={true}
         >
+            {/* added */}
             <div>
                 <img src={bannerImg1} />
             </div>

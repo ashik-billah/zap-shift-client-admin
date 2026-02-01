@@ -27,6 +27,7 @@ const Brands = () => {
                 disableOnInteraction: false,
             }}
         >
+            {/* addedL */}
             {
                 brandLogos.map((logo, index) => <SwiperSlide key={index}>
                     <img src={logo} alt="" />

@@ -12,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <Brands></Brands>
             <Reviews reviewsPromise={reviewsPromise}></Reviews>
+            {/* added */}
         </div>
     );
 };

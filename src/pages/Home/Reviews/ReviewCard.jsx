@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaQuoteLeft } from 'react-icons/fa';
-
+//added
 const ReviewCard = ({ review }) => {
     const { userName, review: testimonial, user_photoURL } = review;
     return (

@@ -5,10 +5,10 @@ const ReviewCard = ({ review }) => {
     const { userName, review: testimonial, user_photoURL } = review;
     return (
         <div className="max-w-sm bg-base-100 shadow-lg rounded-xl p-6 border border-gray-200">
-            {/* Quote Icon */}
+            {/* Quote Icon added */}
             <FaQuoteLeft className="text-primary text-2xl mb-4" />
 
-            {/* Review Text */}
+            {/* Review TextadddS */}
             <p className="mb-4">
                 {testimonial}
             </p>

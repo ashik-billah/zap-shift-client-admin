@@ -13,7 +13,7 @@ const ReviewCard = ({ review }) => {
                 {testimonial}
             </p>
 
-            {/* Divider */}
+            {/* Divider added */}
             <div className="border-t border-dashed border-gray-300 my-4"></div>
 
             {/* Profile */}

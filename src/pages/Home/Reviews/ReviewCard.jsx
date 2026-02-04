@@ -16,7 +16,7 @@ const ReviewCard = ({ review }) => {
             {/* Divider added */}
             <div className="border-t border-dashed border-gray-300 my-4"></div>
 
-            {/* Profile */}
+            {/* Profile added */}
             <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-primary">
                     <img src={user_photoURL} alt="" />

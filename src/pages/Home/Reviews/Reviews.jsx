@@ -2,7 +2,7 @@ import React, { use } from 'react';
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReviewCard from './ReviewCard';
-
+//added
 const Reviews = ({ reviewsPromise }) => {
     const reviews = use(reviewsPromise);
     console.log(reviews);

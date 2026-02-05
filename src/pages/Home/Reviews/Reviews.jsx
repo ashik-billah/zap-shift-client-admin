@@ -3,6 +3,7 @@ import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ReviewCard from './ReviewCard';
 //added
+// dddw
 const Reviews = ({ reviewsPromise }) => {
     const reviews = use(reviewsPromise);
     console.log(reviews);

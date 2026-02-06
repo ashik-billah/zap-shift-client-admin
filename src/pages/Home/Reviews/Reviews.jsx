@@ -35,7 +35,8 @@ const Reviews = ({ reviewsPromise }) => {
                 pagination={true}
                 modules={[EffectCoverflow, Pagination, Autoplay]}
                 className="mySwiper"
-            >
+            > 
+            {/* jhjjhjkk */}
                 {
                     reviews.map(review => <SwiperSlide key={review.id}>
                         <ReviewCard review={review}></ReviewCard>

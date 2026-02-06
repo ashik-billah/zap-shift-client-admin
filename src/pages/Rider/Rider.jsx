@@ -4,7 +4,7 @@ import useAuth from '../../hooks/useAuth';
 import useAxiosSecure from '../../hooks/useAxiosSecure';
 import { useLoaderData } from 'react-router';
 import Swal from 'sweetalert2';
-
+//added
 const Rider = () => {
     const {
         register,

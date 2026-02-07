@@ -19,7 +19,7 @@ const Rider = () => {
     const regionsDuplicate = serviceCenters.map(c => c.region);
 
     const regions = [...new Set(regionsDuplicate)];
-    // explore useMemo useCallback
+    // explore useMemo useCallback added
     const districtsByRegion = (region) => {
         const regionDistricts = serviceCenters.filter(c => c.region === region);
         const districts = regionDistricts.map(d => d.district);
@@ -48,7 +48,7 @@ const Rider = () => {
             <h2 className="text-4xl text-primary">Be a Rider</h2>
             <form onSubmit={handleSubmit(handleRiderApplication)} className='mt-12 p-4 text-black'>
 
-                {/* two column */}
+                {/* two column  added*/}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
                     {/* rider Details */}
 

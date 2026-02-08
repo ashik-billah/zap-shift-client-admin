@@ -54,7 +54,7 @@ const Rider = () => {
 
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">Rider Details</h4>
-                        {/* rider name added*/}
+                        {/* rider name added ad*/}
                         <label className="label">Rider Name</label>
                         <input type="text" {...register('name')}
                             defaultValue={user?.displayName}

@@ -50,7 +50,7 @@ const Rider = () => {
 
                 {/* two column  added*/}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
-                    {/* rider Details */}
+                    {/* rider Details added */}
 
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">Rider Details</h4>

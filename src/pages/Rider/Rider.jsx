@@ -66,7 +66,7 @@ const Rider = () => {
                             defaultValue={user?.email}
                             className="input w-full" placeholder="Sender Email" />
 
-                        {/* rider region */}
+                        {/* rider region added */}
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend">Regions</legend>
                             <select {...register('region')} defaultValue="Pick a region" className="select">

@@ -60,7 +60,7 @@ const Rider = () => {
                             defaultValue={user?.displayName}
                             className="input w-full" placeholder="Sender Name" />
 
-                        {/* rider email */}
+                        {/* rider email added */}
                         <label className="label">Email</label>
                         <input type="text" {...register('email')}
                             defaultValue={user?.email}

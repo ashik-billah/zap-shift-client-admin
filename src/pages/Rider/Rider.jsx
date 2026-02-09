@@ -77,7 +77,7 @@ const Rider = () => {
                             </select>
                         </fieldset>
 
-                        {/* rider districts */}
+                        {/* rider districts added */}
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend">Districts</legend>
                             <select {...register('district')} defaultValue="Pick a district" className="select">

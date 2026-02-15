@@ -95,7 +95,7 @@ const Rider = () => {
 
 
                     </fieldset>
-                    {/* receiver Details */}
+                    {/* receiver Details added */}
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">More Details</h4>
                         {/* receiver name */}

@@ -89,7 +89,7 @@ const Rider = () => {
                         </fieldset>
 
 
-                        {/* rider address */}
+                        {/* rider address added */}
                         <label className="label mt-4">Your Address</label>
                         <input type="text" {...register('address')} className="input w-full" placeholder="Sender Address" />
 

@@ -102,7 +102,7 @@ const Rider = () => {
                         <label className="label">Driving License</label>
                         <input type="text" {...register('license')} className="input w-full" placeholder="Driving License" />
 
-                        {/* receiver email */}
+                        {/* receiver email added*/}
                         <label className="label">NID</label>
                         <input type="text" {...register('nid')} className="input w-full" placeholder="NID" />
 

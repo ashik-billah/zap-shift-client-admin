@@ -110,7 +110,7 @@ const Rider = () => {
                         {/* Bike  added*/}
                         <label className="label mt-4">BIKE</label>
                         <input type="text" {...register('bike')} className="input w-full" placeholder="Bike" />
-                        {/*  address */}
+                        {/* added  address */}
 
 
                     </fieldset>

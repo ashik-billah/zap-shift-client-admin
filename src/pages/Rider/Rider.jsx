@@ -98,7 +98,7 @@ const Rider = () => {
                     {/* receiver Details added */}
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">More Details</h4>
-                        {/* receiver name */}
+                        {/* receiver name added */}
                         <label className="label">Driving License</label>
                         <input type="text" {...register('license')} className="input w-full" placeholder="Driving License" />
 
@@ -107,7 +107,7 @@ const Rider = () => {
                         <input type="text" {...register('nid')} className="input w-full" placeholder="NID" />
 
 
-                        {/* Bike */}
+                        {/* Bike  added*/}
                         <label className="label mt-4">BIKE</label>
                         <input type="text" {...register('bike')} className="input w-full" placeholder="Bike" />
                         {/*  address */}

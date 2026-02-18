@@ -6,13 +6,13 @@ import useAxiosSecure from '../../hooks/useAxiosSecure';
 import useAuth from '../../hooks/useAuth';
 
 
-//added
+//added g
 const SendParcel = () => {
     const {
         register,
         handleSubmit,
         control,
-        // formState: { errors } 
+        // formState: { errors } added
     } = useForm();
     const { user } = useAuth();
     const axiosSecure = useAxiosSecure();

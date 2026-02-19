@@ -70,7 +70,7 @@ const SendParcel = () => {
             confirmButtonText: "Confirm and Continue Payment!"
         }).then((result) => {
             if (result.isConfirmed) {
-
+// added
                 // save the parcel info to the database
                 axiosSecure.post('/parcels', data)
                     .then(res => {

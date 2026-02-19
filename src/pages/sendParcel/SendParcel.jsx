@@ -22,7 +22,7 @@ const SendParcel = () => {
     const regionsDuplicate = serviceCenters.map(c => c.region);
 
     const regions = [...new Set(regionsDuplicate)];
-    // explore useMemo useCallback
+    // explore useMemo useCallback edded
     const senderRegion = useWatch({ control, name: 'senderRegion' });
     const receiverRegion = useWatch({ control, name: 'receiverRegion' })
 

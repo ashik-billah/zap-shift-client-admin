@@ -72,6 +72,7 @@ const SendParcel = () => {
             if (result.isConfirmed) {
 // added
                 // save the parcel info to the database//added
+                // save the parcel info to the database 
                 axiosSecure.post('/parcels', data)
                     .then(res => {
                         console.log('after saving parcel', res.data);

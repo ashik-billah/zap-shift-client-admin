@@ -98,7 +98,7 @@ const SendParcel = () => {
         <div>
             <h2 className="text-5xl font-bold">Send A Parcel</h2>
             <form onSubmit={handleSubmit(handleSendParcel)} className='mt-12 p-4 text-black'>
-                {/* parcel type*/}
+                {/* parcel type added*/}
                 <div>
                     <label className="label mr-4">
                         <input type="radio" {...register('parcelType')} value="document" className="radio" defaultChecked />

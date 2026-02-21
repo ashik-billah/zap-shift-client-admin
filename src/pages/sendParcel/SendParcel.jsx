@@ -110,7 +110,7 @@ const SendParcel = () => {
                     </label>
                 </div>
 
-                {/* parcel info: name, weight */}
+                {/* parcel info: name, weight added */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12 my-8'>
                     <fieldset className="fieldset">
                         <label className="label">Parcel Name</label>

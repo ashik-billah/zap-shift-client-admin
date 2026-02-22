@@ -125,7 +125,7 @@ const SendParcel = () => {
 
                 {/* two column add */}
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
-                    {/* sender Details */}
+                    {/* sender Details add */}
 
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">Sender Details</h4>

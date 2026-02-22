@@ -129,7 +129,7 @@ const SendParcel = () => {
 
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">Sender Details</h4>
-                        {/* sender name */}
+                        {/* sender name add*/}
                         <label className="label">Sender Name</label>
                         <input type="text" {...register('senderName')}
                             defaultValue={user?.displayName}

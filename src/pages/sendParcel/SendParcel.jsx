@@ -164,7 +164,7 @@ const SendParcel = () => {
                         </fieldset>
 
 
-                        {/* sender address */}
+                        {/* sender address added */}
                         <label className="label mt-4">Sender Address</label>
                         <input type="text" {...register('senderAddress')} className="input w-full" placeholder="Sender Address" />
 

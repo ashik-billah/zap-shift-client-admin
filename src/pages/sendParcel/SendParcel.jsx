@@ -177,7 +177,7 @@ const SendParcel = () => {
                         <label className="label">Receiver Name</label>
                         <input type="text" {...register('receiverName')} className="input w-full" placeholder="Receiver Name" />
 
-                        {/* receiver email */}
+                        {/* receiver email added*/}
                         <label className="label">Receiver Email</label>
                         <input type="text" {...register('receiverEmail')} className="input w-full" placeholder="Receiver Email" />
 

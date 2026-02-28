@@ -173,7 +173,7 @@ const SendParcel = () => {
                     {/* receiver Details added */}
                     <fieldset className="fieldset">
                         <h4 className="text-2xl font-semibold">Receiver Details</h4>
-                        {/* receiver name */}
+                        {/* receiver name added */}
                         <label className="label">Receiver Name</label>
                         <input type="text" {...register('receiverName')} className="input w-full" placeholder="Receiver Name" />
 

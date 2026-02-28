@@ -181,7 +181,7 @@ const SendParcel = () => {
                         <label className="label">Receiver Email</label>
                         <input type="text" {...register('receiverEmail')} className="input w-full" placeholder="Receiver Email" />
 
-                        {/* receiver region */}
+                        {/* receiver region added*/}
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend">Receiver Regions</legend>
                             <select {...register('receiverRegion')} defaultValue="Pick a region" className="select">

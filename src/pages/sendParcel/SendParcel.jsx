@@ -192,7 +192,7 @@ const SendParcel = () => {
                             </select>
                         </fieldset>
 
-                        {/* receiver district */}
+                        {/* receiver district added */}
                         <fieldset className="fieldset">
                             <legend className="fieldset-legend">Receiver District</legend>
                             <select {...register('receiverDistrict')} defaultValue="Pick a district" className="select">

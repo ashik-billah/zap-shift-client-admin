@@ -9,6 +9,7 @@ const Footer = () => {
                 <Logo></Logo>
                 <p className="font-bold">
                     ACME Industries Ltd.
+                    {/* add */}
                     <br />
                     Providing reliable tech since 1992
                 </p>

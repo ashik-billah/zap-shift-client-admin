@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../../../components/Logo/Logo';
-
+//add
 const Footer = () => {
     return (
         <footer className="footer footer-horizontal text-secondary footer-center p-10">

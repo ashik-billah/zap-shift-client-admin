@@ -3,7 +3,7 @@ import Logo from '../../../components/Logo/Logo';
 import { Link, NavLink } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
 //add
-
+//add
 const NavBar = () => {
 
     const { user, logOut } = useAuth();

@@ -15,7 +15,7 @@ const NavBar = () => {
                 console.log(error)
             })
     }
-
+// add
     const links = <>
         <li><NavLink to="">Services</NavLink></li>
         <li><NavLink to="">About Us</NavLink></li>

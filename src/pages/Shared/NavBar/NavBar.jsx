@@ -28,7 +28,7 @@ const NavBar = () => {
                 <li><NavLink to="/dashboard/my-parcels">My Parcels</NavLink></li>
             </>
         }
-
+{/* add */}
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">

@@ -10,6 +10,7 @@ const AdminRoute = ({ children }) => {
 
     if (loading || roleLoading) {
         return <Loading></Loading>
+        //add
     }
 
     if (role !== 'admin') {

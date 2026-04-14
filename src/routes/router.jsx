@@ -78,6 +78,7 @@ export const router = createBrowserRouter([
       {
         path: 'payment/:parcelId',
         Component: Payment
+        // add
       }, 
       {
         path: 'payment-history',

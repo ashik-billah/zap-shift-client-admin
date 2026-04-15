@@ -93,6 +93,7 @@ export const router = createBrowserRouter([
       {
         path: 'payment-cancelled', 
         Component: PaymentCancelled
+        // add
       }, 
       {
         path: 'approve-riders',
